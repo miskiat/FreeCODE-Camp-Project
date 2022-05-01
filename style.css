@@ -1,0 +1,129 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 10vh;
+  background: #ffa000;
+  font-size: 30px;
+  padding: 10px;
+}
+#navbar a {
+  padding-right: 4rem;
+  text-decoration-line: none;
+  color: black;
+}
+#welcome-section {
+  background: #81c784;
+  height: 100vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+h2 {
+  color: #dd2c00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: lighter;
+}
+#projects {
+  background: #d500f9;
+  font-size: 2rem;
+  height: 50rem;
+}
+#projects header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  font-weight: 800;
+  color: black;
+  font-style: oblique;
+  font-family: "Raleway", sans-serif;
+}
+.project-list {
+  display: flex;
+  width: 100%;
+  background-color: navy;
+}
+.project-tile {
+  width: 20rem;
+  height: 20rem;
+  border: 1px solid rgb(2, 235, 52);
+  column-gap: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  color: black;
+  text-decoration-line: none;
+}
+.project {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* object-fit: cover; */
+  text-decoration-line: none;
+}
+img {
+  width: 20rem;
+  height: 5rem;
+  padding-top: 2px;
+  object-fit: cover;
+}
+
+#contact {
+  background: #fb8c00;
+  height: 30vh;
+  padding: 10rem 10rem;
+}
+#contact header {
+  font-size: 4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 30px;
+}
+#socialmedia {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2rem;
+}
+span {
+  font-size: 2rem;
+}
+@media (max-width: 400px;) {
+  :root {
+    font-size: 10px;
+  }
+}
